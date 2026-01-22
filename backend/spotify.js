@@ -12,7 +12,7 @@ async function getAccessToken() {
     }
 
     try {
-        // ✅ URL OFICIAL DE AUTENTICAÇÃO DO SPOTIFY
+        //  URL OFICIAL DE AUTENTICAÇÃO DO SPOTIFY
         const response = await axios.post('https://accounts.spotify.com/api/token', 
             querystring.stringify({
                 grant_type: 'client_credentials'
