@@ -77,7 +77,7 @@ PORT=3000
 | `SPOTIFY_CLIENT_ID` / `SPOTIFY_CLIENT_SECRET` | [Spotify for Developers](https://developer.spotify.com/dashboard) |
 | `GENIUS_TOKEN` | [Genius API Clients](https://genius.com/api-clients) |
 
-> **Nunca versione o `.env`.** Ele contém segredos e já está listado no `.gitignore`.
+> **Nunca versione o `.env`.** Ele contém segredos e está listado no `.gitignore`.
 
 ### Subindo o servidor
 
